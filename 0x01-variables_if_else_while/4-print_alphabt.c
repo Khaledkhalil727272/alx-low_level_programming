@@ -12,17 +12,17 @@ int main(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if(i == 'e')
+		if (i == 'e')
 		{
 			continue;
 		}
-		if(i == "q")
+		if (i == 'q')
 		{
 			continue;
 		}
 		putchar(i);
 	}
-	putch('\n');
+	putchar('\n');
 	return (0);
 
 }
