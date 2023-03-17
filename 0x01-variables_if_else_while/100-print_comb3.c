@@ -23,9 +23,11 @@ int main(void)
 			putchar((j % 10) + '0');
 		}
 		if (j == 9)
+		{
 			continue;
-			putchar(',');
-			putchar(' ');
+		}
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
