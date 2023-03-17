@@ -21,11 +21,11 @@ int main(void)
 			}
 			putchar((i % 10) + '0');
 			putchar((j % 10) + '0');
-			if (j == 9)
-				continue;
+		}
+		if (j == 9)
+			continue;
 			putchar(',');
 			putchar(' ');
-		}
 	}
 	putchar('\n');
 	return (0);
