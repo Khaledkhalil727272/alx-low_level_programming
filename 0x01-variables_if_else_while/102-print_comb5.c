@@ -22,7 +22,7 @@ int main(void)
 			if ((j == 8) && (i == 9))
 				continue;
 			putchar(' ');
-			for (k = i; k <= 9; k++)
+			for (k = 0; k <= 9; k++)
 			{
 				for (m = k; m <= 9; m++)
 				{
