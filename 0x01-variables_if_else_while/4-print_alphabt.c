@@ -8,14 +8,21 @@
 
 int main(void)
 {
-	char i = 'a';
+	char i;
 
-	while (i != 'q' && i != 'e')
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		continue;
+		if(i == 'e')
+		{
+			continue;
+		}
+		if(i == "q")
+		{
+			continue;
+		}
 		putchar(i);
-		i++;
 	}
+	putch('\n');
 	return (0);
 
 }
