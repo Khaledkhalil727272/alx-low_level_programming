@@ -2,12 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
+/* betty style doc for function main goes there */
 /**
  *  main - main function
  *
  *  Description: print positive or negative
  *
- *  Return Always 0
+ *  Return: Always 0
  */
 int main(void)
 {
